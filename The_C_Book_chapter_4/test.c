@@ -17,7 +17,7 @@ int main()
 {
 	char line[MAXLINE];
 	int found = 0;
-
+	// Trying new comment features
 	while (getln(line, MAXLINE) > 0)
 		if (strindex(line,pattern) >= 0)
 		{
