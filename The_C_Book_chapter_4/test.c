@@ -13,7 +13,7 @@ int strindex(char source[], char searchfor[]);
 char pattern[] = "ould";	/*pattern to search for */
 
 /* Find all lines matching pattern */
-main()
+int main()
 {
 	char line[MAXLINE];
 	int found = 0;
